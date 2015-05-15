@@ -1,0 +1,53 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.jumbotron {
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+	background-image: url('../images/memphis.jpg');
+	background-size: 1400px 1850px;
+	padding-bottom: 400px;
+}
+
+.container {
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+
+	.jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 991px) {
+
+	.jumbotron h1 {
+		font-size: 40px;
+	}
+
+	.jumbotron p {
+		padding: 0 10px;
+	}
+}
+
+@media (max-width: 761px) {
+
+	.jumbotron h1 {
+		font-size: 24px;
+	}
+
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0;
+	}
+
+}
